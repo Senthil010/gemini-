@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "platform": "Growth Level",
+    "author": "Senthil010"
+  },
+  "modules": [
+    {
+      "id": "math_foundations",
+      "title": "Mathematics Foundations (Class 6 Core)",
+      "category": "Mathematics",
+      "lessons": [
+        {
+          "id": "math_1",
+          "title": "Whole Numbers and Place Value",
+          "objectives": [
+            "Understand place value systems",
+            "Compare and order large whole numbers",
+            "Apply fundamental arithmetic operations"
+          ],
+          "concepts": [
+            "Place value chart",
+            "Indian and International numeration systems",
+            "Rounding numbers"
+          ],
+          "example": "Find the place value of 7 in 4,723,891. Answer: 700,000 (Ten thousands/Hundred thousands place depending on system).",
+          "quiz": [
+            {
+              "q": "What is the place value of 5 in 5,432,100 (International system)?",
+              "options": [
+                "5,000,000",
+                "500,000",
+                "50,000",
+                "5,000"
+              ],
+              "answer": 0,
+              "explanation": "In the International numeration system, 5 is in the millions period, representing 5,000,000."
+            },
+            {
+              "q": "Round 48,621 to the nearest thousand.",
+              "options": [
+                "48,000",
+                "49,000",
+                "50,000",
+                "48,600"
+              ],
+              "answer": 1,
+              "explanation": "The hundreds digit is 6 (>= 5), so we round up the thousands digit from 8 to 9, giving 49,000."
+            }
+          ]
+        },
+        {
+          "id": "math_2",
+          "title": "Factors, Multiples and Divisibility Rules",
+          "objectives": [
+            "Identify factors and multiples",
+            "Apply divisibility rules for 2, 3, 4, 5, 6, 8, 9, 10, 11",
+            "Find HCF and LCM"
+          ],
+          "concepts": [
+            "Prime vs Composite numbers",
+            "Prime factorization",
+            "Highest Common Factor (HCF)",
+            "Lowest Common Multiple (LCM)"
+          ],
+          "example": "Find HCF and LCM of 12 and 18. Prime factors: 12 = 2^2 * 3, 18 = 2 * 3^2. HCF = 2 * 3 = 6. LCM = 2^2 * 3^2 = 36.",
+          "quiz": [
+            {
+              "q": "Which of the following numbers is divisible by 9?",
+              "options": [
+                "4512",
+                "7326",
+                "8914",
+                "3052"
+              ],
+              "answer": 1,
+              "explanation": "Sum of digits of 7326 is 7+3+2+6 = 18, which is divisible by 9."
+            },
+            {
+              "q": "What is the LCM of 4, 6, and 8?",
+              "options": [
+                "12",
+                "24",
+                "48",
+                "72"
+              ],
+              "answer": 1,
+              "explanation": "Multiples of 4: 4,8,12,16,20,24... Multiples of 6: 6,12,18,24... Multiples of 8: 8,16,24... Lowest common is 24."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "java_arrays",
+      "title": "Java Programming: 1D & 2D Arrays",
+      "category": "Java Programming",
+      "lessons": [
+        {
+          "id": "java_1",
+          "title": "Stage A: 1D Array Fundamentals & Traversal",
+          "objectives": [
+            "Declare, initialize and traverse 1D arrays",
+            "Compute sum, min, max, and linear search"
+          ],
+          "concepts": [
+            "Memory allocation",
+            "Zero-based indexing",
+            "For-each loops",
+            "Boundary checks"
+          ],
+          "example": "int[] arr = {10, 20, 30, 40}; find max element.",
+          "quiz": [
+            {
+              "q": "What is the valid index range for an array of size N?",
+              "options": [
+                "1 to N",
+                "0 to N-1",
+                "0 to N",
+                "1 to N-1"
+              ],
+              "answer": 1,
+              "explanation": "Java arrays are zero-indexed, meaning valid indices run from 0 to N-1."
+            },
+            {
+              "q": "Which exception is thrown when accessing an invalid array index?",
+              "options": [
+                "NullPointerException",
+                "ArrayIndexOutOfBoundsException",
+                "ArithmeticException",
+                "IllegalArgumentException"
+              ],
+              "answer": 1,
+              "explanation": "Accessing an index < 0 or >= length throws ArrayIndexOutOfBoundsException."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
